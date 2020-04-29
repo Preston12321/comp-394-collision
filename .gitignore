@@ -1,0 +1,8 @@
+*.bin
+*.dump
+/task3/collide
+/task3/collide1
+/task3/collide2
+/task4/collide
+/task4/benign
+/task4/malicious
