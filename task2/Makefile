@@ -11,8 +11,7 @@ concat: prefix1.bin prefix2.bin suffix.txt
 
 .PHONY: sum
 sum: complete1.bin complete2.bin
-	md5sum complete1.bin
-	md5sum complete2.bin
+	md5sum complete1.bin complete2.bin
 
 .PHONY: clean
 clean:
